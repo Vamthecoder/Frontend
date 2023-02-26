@@ -49,4 +49,17 @@
 ### Center the form element, by giving it a margin of 0 auto. Then, fix its size to a maximum width of 500px, and a minimum width of 300px. In between that range, allow it to have a width of 60vw.
 ### To style the submit button, you can use an attribute selector, which selects an element based on the given attribute value. Here is an example: input[name="password"] - / - The above selects input elements with a name attribute value of password.
 
- 
+## Rothko Painting
+### Use the filter property to blur the painting by 2px in the .canvas element. ex:p {  filter: blur(3px); }
+### Increase the area and soften the edges of .one by setting its box-shadow to 0 0 3px 3px #efb762.
+### Use the transform property on the .one selector to rotate it counter clockwise by 0.6 degrees. transform: rotate(-0.6deg)
+
+## Photo Gallery
+### text-transform: uppercase; - with this css property normal small alphabets will turn automatically into captial alphas without changing in HTML manually.
+### Flexbox has a main and cross axis. The main axis is defined by the flex-direction property, which has four possible values:
+### row (default): horizontal axis with flex items from left to right
+### row-reverse: horizontal axis with flex items from right to left
+### column: vertical axis with flex items from top to bottom
+### column-reverse: vertical axis with flex items from bottom to top
+### Note: The axes and directions will be different depending on the text direction. The values shown are for a left-to-right text direction.
+### 
