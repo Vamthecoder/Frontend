@@ -62,4 +62,11 @@
 ### column: vertical axis with flex items from top to bottom
 ### column-reverse: vertical axis with flex items from bottom to top
 ### Note: The axes and directions will be different depending on the text direction. The values shown are for a left-to-right text direction.
-### 
+### Give your .gallery img selector the object-fit property and set it to cover. This will tell the image to fill the img container while maintaining aspect ratio, resulting in cropping to fit.
+### gap property, row-gap & column-gap sub property gives flex box a mere gap with the pxls you choose. it is also called gutter between row and column.
+
+# Day4
+
+## Nutrition Label
+### text-indent property in css is very useful for your paragraph to give a lil space without stretching it padding or margin. it also works in negative units. Ex: p { text-indent: -10px; } . you can choose where you want it wisely.
+
