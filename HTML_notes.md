@@ -70,3 +70,11 @@
 ## Nutrition Label
 ### text-indent property in css is very useful for your paragraph to give a lil space without stretching it padding or margin. it also works in negative units. Ex: p { text-indent: -10px; } . you can choose where you want it wisely.
 
+# Day5
+
+## Quiz
+### nav > ul . By using greater than sign you mention whatever ul falls under nav will have their css properties.
+### action attribute: it will automatically send data to given location. how to use <form action="web.server.location">
+### method attribute: can be used by two ways. get and post. post will not show your credetianls and what are you trying to do in URL. on the other hand get will show login email and password that info you have submitted. 
+### 
+

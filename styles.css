@@ -17,3 +17,25 @@
 h1 {
     color: var(--first-clr, blue);
 }
+
+img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+div > img {
+    
+    width: 25vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+div > img:hover {
+    transform: rotate(90deg);
+   
+}
+
+div {
+    overflow: hidden;
+}
