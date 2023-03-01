@@ -76,5 +76,15 @@
 ### nav > ul . By using greater than sign you mention whatever ul falls under nav will have their css properties.
 ### action attribute: it will automatically send data to given location. how to use <form action="web.server.location">
 ### method attribute: can be used by two ways. get and post. post will not show your credetianls and what are you trying to do in URL. on the other hand get will show login email and password that info you have submitted. 
-### 
+
+# Day6
+
+## Quiz
+### role and aria-labelledby are attributes must be declared both at the same time. role could be region, nav or telling the users what they are searching for. but aria-labelledby attribute is declaring what is going under that section what kind of project. it is basically an id to relate to another tag within the parent or ancestor tags. 
+### action and method attribute are also must be declared together. action: it is used when you want to declare the location where your user data will go. it could be your local storage or cloud storage. Method: it is used for post and get data. get data will show the credentials and what user trying to do. sign in login or posting. where post data just post the data on server - it wont get any values/
+### use Select and Option comibnation to make drop down for website. and keep first option value empty and text " Select an option" is the best practice.
+### display: flex; / justify-content: space-between; / align-items: center; / position: fixed; / top: 0; / important css prop values to make nav header look good. 
+### <a href="#id"> to give the inpage location through nav link. use certain id to jump over. 
+### * { scroll-behavior: smooth; } / this command can make your scrolling experience better by smoothing its behaviour. 
+
 
