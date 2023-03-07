@@ -118,3 +118,9 @@
 ### z-index: 1; /- it will give your page 3d lines. more than x-axis and y-axis. z-axis are mainly used with position other than static(default). and it can be used for throw elements in back and bring things in front.
 ### where element[attribute="value"] ONLY targets all the attribute with this value. on the other hand " element.class " it includes these class.
 
+
+# Day9
+
+## Picasso Painting
+### border-style: solid or other values / - can put border in the left-top corner with the dot and can be given height and width for solid box. this property do not cover boxes around like normal border values. 
+###   border-top-color: transparent; border-right-color: gold;  border-bottom-color: transparent;  border-left-color: transparent; you can use this property to make a good side border with multiple divs more than 10 atleast. 
