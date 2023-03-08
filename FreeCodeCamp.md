@@ -124,3 +124,16 @@
 ## Picasso Painting
 ### border-style: solid or other values / - can put border in the left-top corner with the dot and can be given height and width for solid box. this property do not cover boxes around like normal border values. 
 ###   border-top-color: transparent; border-right-color: gold;  border-bottom-color: transparent;  border-left-color: transparent; you can use this property to make a good side border with multiple divs more than 10 atleast. 
+
+
+# Day10
+
+## Piano
+### by giving html the box-sizing border-box and then giving * the box-sizing: inherit; will give all the childern a value of its parent. box-size - border-box. 
+### ::before & ::after elements will allon the first child of selected element and the last child of selected element respectively.
+
+## Technical Documentation Page
+### overflow-y: scroll; if you want to make a scroll with your list. give it respective height then put it in to make it scroll.
+### position: sticky; to use this you need to set the value of top: -1. or any value. 
+### position relative or absolute with top,bottom,left,right: value would not work on responsive designs. you have to give proper margin-top,left,right,bottom. otherwise it will keep that margin on whenever end you will use. 
+### be cautious with units. use wisely rem, px, em and %. Do not use '%' value when you want to give an element a fix space. cuz responsive will be problematic for it.

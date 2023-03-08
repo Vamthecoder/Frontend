@@ -1,41 +1,97 @@
-/*html {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
+* {
     box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    -webkit-box-sizing: inherit;
-    -moz-box-sizing: inherit;
-    box-sizing: inherit;
-    }
-    */
-
-:root {
-    --first-clr: green;
 }
-
-h1 {
-    color: var(--first-clr, blue);
-}
-
-img {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-}
-
-div > img {
     
-    width: 25vw;
-    height: 50vh;
-    object-fit: cover;
+body   {
+    min-width: 290px;
+    display: flex;
+    font-family: 'Open sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
 }
 
-div > img:hover {
-    transform: rotate(90deg);
-   color:
+#navbar {
+    width: 19rem;
+    border-right: 2px solid darkgray;
+    position: fixed;
+    margin: -10px 0 -20px -10px;
 }
 
-div {
-    overflow: hidden;
+.nav-link {
+    display: block;
+    text-decoration: none;
+    color: darkslategrey;
+    border-top: 1px solid black;
+    padding: .6rem;
+    font-size: 1rem;
+    padding-left: 25px;
+    width: 100%;
 }
+
+#nav-head {
+    padding-left: 25px;
+    padding-bottom: 1rem;
+    padding-top: 10px;
+}
+
+header {
+    font-size: 1.8rem;
+    margin: 10px;
+    font-weight: 500;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+}
+
+article {
+    margin: 15px 10px 15px 25px;
+    font-size: 0.96rem;
+}  
+
+article li {
+    margin: 15px;
+}
+
+body:not(code) {
+    font-family: 'Open sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+code {
+    background-color: #f7f7f7;
+    display: block;
+    padding: 15px;
+    font-size: 0.75rem;
+    border-radius: 5px;
+}
+
+@media (max-width: 817px) {
+   
+    #main-doc {
+        position: absolute;
+        margin-left: 0;
+        margin-top: 61vh;
+    }
+
+      #navbar {
+        position: relative;
+        height: 60vh;
+        width: 110%;
+        z-index: 10;
+        border: 2px solid;
+        background-color: #f7f7f7;
+        margin: -10px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    
+      #nav-head {
+        position: sticky;
+        text-align: center;
+        top: -1px;
+        background-color: #f7f7f7;
+        margin: -10px;
+    }
+}
+  
