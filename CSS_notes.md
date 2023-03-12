@@ -12,3 +12,6 @@
 ### @media (orientation: landscape) {} / @media (orientation: portrait) as per mobile screen size and functionality you want. 
 
 
+
+
+

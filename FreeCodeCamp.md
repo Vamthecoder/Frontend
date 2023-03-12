@@ -137,3 +137,16 @@
 ### position: sticky; to use this you need to set the value of top: -1. or any value. 
 ### position relative or absolute with top,bottom,left,right: value would not work on responsive designs. you have to give proper margin-top,left,right,bottom. otherwise it will keep that margin on whenever end you will use. 
 ### be cautious with units. use wisely rem, px, em and %. Do not use '%' value when you want to give an element a fix space. cuz responsive will be problematic for it.
+### @media (orientation: landscape) {} / @media (orientation: portrait) as per mobile screen size and functionality you want. 
+
+
+## Day11
+
+## City Skyline
+### gradient-line {color1   , color2}
+### linear-gradient : it can be used under background to style any element with multiple color and shades. gradient-type (color1 5%, color2 10%, color 30%); best way to use this.
+### repeating-linear -gradient : it can be used to make repeating colors in a single element by using percentages. gradient-type (color1 0%, color1 7%, color2 7%, color2 14%...); and so this is the way to use gradient type- repeating use case.
+### You can specify another direction by adding it before your colors like this: gradient-type( direction,   color1,  color2);
+### You can add multiple gradients to an element by separating them with a comma (,) like this: gradient1(  colors), gradient2(  colors);
+### The radial-gradient() CSS function creates an image consisting of a progressive transition between two or more colors that radiate from an origin. Its shape may be a circle or an ellipse. The function's result is an object of the <gradient> data type, which is a special kind of <image>.
+### At the top of the sky gradient color list, where you would put a direction for the gradient; add circle closest-corner at 15% 15%,. This will move the start of the gradient to 15% from the top and left. It will make it end at the closest-corner and it will maintain a circle shape. These are some keywords built into gradients to describe how it behaves.
