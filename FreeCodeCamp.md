@@ -150,3 +150,21 @@
 ### You can add multiple gradients to an element by separating them with a comma (,) like this: gradient1(  colors), gradient2(  colors);
 ### The radial-gradient() CSS function creates an image consisting of a progressive transition between two or more colors that radiate from an origin. Its shape may be a circle or an ellipse. The function's result is an object of the <gradient> data type, which is a special kind of <image>.
 ### At the top of the sky gradient color list, where you would put a direction for the gradient; add circle closest-corner at 15% 15%,. This will move the start of the gradient to 15% from the top and left. It will make it end at the closest-corner and it will maintain a circle shape. These are some keywords built into gradients to describe how it behaves.
+
+
+# Day12
+
+## A Magazine
+###  display: grid; CSS Grid offers a two-dimensional grid-based layout, allowing you to center items horizontally and vertically while still retaining control to do things like overlap elements. CSS Grid is similar to Flexbox in that it has a special property for both the parent and child elements. 
+### grid-template-columns: 1fr 94rem 1fr; This will create three columns where the middle column is 94rem wide, and the first and last columns are both 1 fraction of the remaining space in the grid container.
+### minmax; /- Use the minmax function to make your columns responsive on any device. The minmax function takes two arguments, the first being the minimum value and the second being the maximum. These values could be a length, percentage, fr, or even a keyword like max-content.
+### To add space between rows in the grid layout, you can use the row-gap property. Same as column-gap to give gap between columns .
+### One option is the grid-column property, which is shorthand for grid-column-start and grid-column-end. The grid-column property tells the grid item which grid line to start and end at. Its values are in rational number (2/1).
+### For additional control over the layout of your content, you can have a CSS Grid within a CSS Grid.
+### The CSS repeat() function is used to repeat a value, rather than writing it out manually, and is helpful for grid layouts. For example, setting the grid-template-columns property to repeat(20, 200px) would create 20 columns each 200px wide.
+### grid-auto-flow : This property takes either row or column as the first value, with an optional second value of dense. grid-auto-flow uses an auto-placement algorithm to adjust the grid layout. Setting it to column will tell the algorithm to create new columns for content as needed. The dense value allows the algorithm to backtrack and fill holes in the grid with smaller items, which can result in items appearing out of order.
+### text-align: justify; will give perfect spacing between the texts which is aligned in the container with 100% width. 
+### The ::first-letter pseudo-selector allows you to target the first letter in the text content of an element.
+### To give the hr a color, you need to adjust the border property.
+### The gap property is a shorthand way to set the value of column-gap and row-gap at the same time. If given one value, it sets the column-gap and row-gap both to that value. If given two values, it sets the row-gap to the first value and the column-gap to the second.
+### The place-items property can be used to set the align-items and justify-items values at the same time. The place-items property takes one or two values. If one value is provided, it is used for both the align-items and justify-items properties. If two values are provided, the first value is used for the align-items property and the second value is used for the justify-items property.
