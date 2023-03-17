@@ -168,3 +168,7 @@
 ### To give the hr a color, you need to adjust the border property.
 ### The gap property is a shorthand way to set the value of column-gap and row-gap at the same time. If given one value, it sets the column-gap and row-gap both to that value. If given two values, it sets the row-gap to the first value and the column-gap to the second.
 ### The place-items property can be used to set the align-items and justify-items values at the same time. The place-items property takes one or two values. If one value is provided, it is used for both the align-items and justify-items properties. If two values are provided, the first value is used for the align-items property and the second value is used for the justify-items property.
+
+# Day13
+
+## Completed A Landing Page Project from freeCodeCamp.
