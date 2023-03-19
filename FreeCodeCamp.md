@@ -1,4 +1,4 @@
-# HTML Notes
+# freeCodeCamp Notes
 
 ## Day1
 
