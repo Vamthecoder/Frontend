@@ -191,3 +191,15 @@
 ### animation-timing-function: can be 'linear', 'ease', 'ease-in', 'ease-out', 'ease-in-out', 'step-start', 'step-end' and many - more '' 
 ### animation Constituent properties: 'animation-delay', 'animation-direction', 'animation-fill-mode', 'animation-play-state'.
 
+
+# Day15
+
+## A Happy Flappy Penguin
+### To use element's both axis, you can use the skew transform function, which takes two arguments. The first being an angle to shear the x-axis by, and the second being an angle to shear the y-axis by.
+### border-radius: 80% 80% 100% 100%; you can use different combination to create any shapes like egg, oval, head and more with spherical properties.
+### .element * by giving this selector, you can select all descendents of the targeted element selector. 
+###  font: bold 25px Helvetica, sans-serif; /- font shorthand property : font: weight size family.
+### The scaleX() CSS function defines a transformation that resizes an element along the x-axis (horizontally).… negative '-1' will resize an element upward horizontially. positive'1' with resize the element downward without giving it a prior width .. 
+### scaleY() as well as X it will work vertically. negative'-1' marking will make the height of the element upward and positive(1) will give the element height downward. 
+### transform: scale(); by pseudo class hover or active you can give the element a zoom-in look through positive value and zoom-out through negative value.
+### transition is like small animation you can give similar values to see how it works.

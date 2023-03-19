@@ -1,0 +1,9 @@
+#navbar {
+    position: fixed;
+    top: 0;
+
+}
+
+@media only screen and (max-width: 600px) {
+    
+}
