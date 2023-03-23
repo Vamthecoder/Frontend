@@ -1,6 +1,6 @@
 # Day18
 
-## 404 Not Found Master Completed
+## 404 Not Found Master Completed 
 
 
 # Day19
@@ -15,3 +15,6 @@
 ### place items and content is short hand property for justify and align. 
 ### span 2 can work in any condition but without giving the appropriate will move the span-ed content to any location. not specific. 
 ### grid is a good sport when you want to work on complex designs. but for only two columns you can use flex better. 
+
+## DOM 
+### Document- File(Html,Xml), Object- tags/elements of the file, Model- Layout/Structure. which can be manipulated by JS 
