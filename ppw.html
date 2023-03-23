@@ -7,31 +7,75 @@
     <title>Personal Portfolio Webpage</title>
     <link rel="stylesheet" href="ppw.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet"> 
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
 </head>
 <body>
     <header>
         <nav id="navbar">
             <i class="fa fa-2x  fa-bug-slash  "></i>
-            <ul>
-                <li ><a class="nav-link" href="#about" target="_blank" id="about">About</a></li>
-                <li ><a class="nav-link" href="#work" target="_blank" id="work">Work</a></li>
-                <li ><a class="nav-link" href="#contact" target="_blank" id="contact">Contact</a></li>
+            <ul id="navigation">
+                <li ><a class="nav-link" href="#about" >About</a></li>
+                <li ><a class="nav-link" href="#work" >Work</a></li>
+                <li ><a class="nav-link" href="#contact" >Contact</a></li>
             </ul>
+            <i class="fa fa-2x fa-code "></i>
         </nav> 
     </header> 
     <main>
-        <section id="welcome-section" id="about" >
-            <h1>Hey I am Amit</h1>
-            <p>Full Time Developer - Part Time DJ</p>
+        <section id="welcome-section">
+            <div id="about">
+                <h1>Hey, I am Amit</h1>
+                <p>Full Time Developer - Part Time DJ</p>
+            </div>
         </section>
-        <section id="projects" id="work" >
-            <div class="project-tile"> 
-                <a href=""></a>
+        <section id="work">
+            <div id="projects">
+                <h2>Projects Done by Me</h2>
+                <div id="project-wall">
+                    <div class="project-tile one"> 
+                        <a href=""><img src="img/tribute-page-main-image.jpg" alt="tribute-page" class="cover">
+                            <p><span class="description">Tribute Page </span></p></a>
+                    </div>
+                    <div class="project-tile two"> 
+                        <a href=""><img src="img/balance-sheet.jpg" alt="balance-sheet" class="cover">
+                            <p><span class="description">Balance Sheet</span></p>
+                        </a>
+                    </div>
+                    <div class="project-tile three"> 
+                        <a href=""><img src="img/CALCULATOR.png" alt="CALCULATOR" class="cover">
+                            <p><span class="description">Calculator</span> </p></a>
+                    </div>
+                    <div class="project-tile four"> 
+                        <a href=""><img src="img/collection.jpg" alt="Music-page" class="cover">
+                        <p><span class="description">Good Music</span> </p> </a>
+                    </div>
+                    <div class="project-tile five"> 
+                        <a href=""><img src="img/form.jpg" alt="survey-form" class="cover">
+                        <p><span class="description">Survey Form</span></p></a>
+                    </div>
+                    <div class="project-tile six"> 
+                        <a href=""><img src="img/plp.jpg" alt="product-landing-page" class="cover">
+                        <p>  <span class="description">Product Landing Page</span></p></a>
+                    </div>
+                    <div class="project-tile seven"> 
+                        <a href=""><img src="img/tdp.jpg" alt="technical-description-page" class="cover">
+                            <p><span class="description">Technical Description Page </span></p></a>
+                    </div>
+                    
+                </div>
             </div>
         </section>
         <section id="contact">
-            <a href="" id="profile-link" target="_blank"></a>
+            <h2>Let's work together...</h2>
+            <p>Contact Me through..</p>
+            <ul class="fa-container">
+                <li><a href="" id="profile-link" target="_blank" class="resize fa-brands fa-linkedin">   <span>Linked-in</span></a></li>
+                <li><a href="" id="profile-link" target="_blank" class="resize fa-brands fa-github">   <span>Github</span> </a></li>
+                <li><a href="mailto:amitgupta121394@gmail.com" id="profile-link" target="_blank" class="resize fa fa-envelope">    <span>Email</span> </a></li>
+            </ul>
         </section>
     </main> 
+
 </body>
 </html>

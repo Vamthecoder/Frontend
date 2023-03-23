@@ -203,3 +203,13 @@
 ### scaleY() as well as X it will work vertically. negative'-1' marking will make the height of the element upward and positive(1) will give the element height downward. 
 ### transform: scale(); by pseudo class hover or active you can give the element a zoom-in look through positive value and zoom-out through negative value.
 ### transition is like small animation you can give similar values to see how it works.
+
+
+# Day16
+
+## Personal Portofolio 
+
+
+# Day17
+
+## Personal Portfolio
