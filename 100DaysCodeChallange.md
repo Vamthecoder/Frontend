@@ -18,3 +18,11 @@
 
 ## DOM 
 ### Document- File(Html,Xml), Object- tags/elements of the file, Model- Layout/Structure. which can be manipulated by JS 
+
+
+# Day20
+
+## Responsive Design
+### learned more about how pixel works and how we can more appropriate responsive website. 
+### completed Interior Consultants project from Dev_Challenges. 
+
