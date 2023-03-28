@@ -26,3 +26,12 @@
 ### learned more about how pixel works and how we can more appropriate responsive website. 
 ### completed Interior Consultants project from Dev_Challenges. 
 
+
+# Day21
+
+## Completed Recipe page from Dev Challenges.
+
+
+# Day22
+
+## Resolved the issues of 404 and did upload the project on netlify and completed first project on website of Dev Challenges. 
