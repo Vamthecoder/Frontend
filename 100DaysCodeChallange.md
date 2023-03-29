@@ -35,3 +35,8 @@
 # Day22
 
 ## Resolved the issues of 404 and did upload the project on netlify and completed first project on website of Dev Challenges. 
+
+
+# Day23 
+
+## Completed Checkout page project from dev challenges. 
