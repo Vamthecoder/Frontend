@@ -40,3 +40,31 @@
 # Day23 
 
 ## Completed Checkout page project from dev challenges. 
+
+
+# Day24 
+
+## HTML CSS JS Apna College
+### semantic are like meaningful elements like section aside main body footer header and non semantic elements are like div span 
+### adjacent are sibling element descendent are child and ascendent are parents
+### in video tag you can use controls, autoplay, loop, autopictureinpicture, muted, poster and preload.
+### text-align-last will only select last line of the content. can give values of center left right.
+### text-decoration is shorthand property for line-style-color.
+### text-emphasis is shorthand property for position-style-color and it could be great experiment to do. 
+### text-indent could be one positive value for first line to move it forward and backward from its position.
+### text-orientation: upright; work with writing-mode: vertical-rl; 
+### text-overflow could be one good source to mention all the text if you have less space in the box.
+### text-shadow is shorthand property for x-axis, y-axis, blur-radius and color. 
+### text-transform could come in handy while putting text in UPPERCASE, lowercase and All First Letter Capital.
+### list-style is shorthand property for type, position and image. 
+### border-block can come in handy when you want to style only block of border.
+### border-collapse: collapse could merge all siblings element borders all together while seprate can create two different borders of siblings.
+### border-radius is shorthand property where you can use top left / top right/ right bottom / bottom left viceverse start end/ end start.
+### border-image can be used to select an image to style your borders. or by help of linear-gradient you can create an image.
+### border-image has different property aligned with outset, repeat, slice, source, width. 
+### border-style can be covered with various values like double dotted dashed solid.
+### border-spacing could come in handy while creating table and other siblings without using padding.
+### order: 'number', by using this in items with the help of flex it can be used to maintain order. like grid-areas.
+### flex-basis: 'max-value'. by this property in css you can use much responsiveness by flex. 
+### flex-grow: '2'; will grow the item relatively to the siblings. it is more like fraction 'fr'.
+### flex-shrink: '2'; will shrink the item relatively to the siblings. opposite of flex-grow.
