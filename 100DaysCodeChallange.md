@@ -68,3 +68,12 @@
 ### flex-basis: 'max-value'. by this property in css you can use much responsiveness by flex. 
 ### flex-grow: '2'; will grow the item relatively to the siblings. it is more like fraction 'fr'.
 ### flex-shrink: '2'; will shrink the item relatively to the siblings. opposite of flex-grow.
+
+
+# Day25
+
+## Basic freeCodeCamp JS
+### In computer science, data is anything that is meaningful to the computer. JavaScript provides eight different data types which are undefined, null, boolean, string, symbol, bigint, number, and object.
+### In JavaScript we end statements with semicolons. Variable names can be made up of numbers, letters, and $ or _, but may not contain spaces or start with a number.
+### let myVar = 1; myVar += 5; console.log(myVar); by using this '+=' you can replace myVar = myVar + 5; this command. 
+### Quotes are not the only characters that can be escaped inside a string. Escape sequences allow you to use characters you may not otherwise be able to use in a string. \'	single quote, \"	double quote, \\	backslash, \n	newline, \t	tab, \r	carriage return, \b	word boundary, \f	form feed
