@@ -77,3 +77,18 @@
 ### In JavaScript we end statements with semicolons. Variable names can be made up of numbers, letters, and $ or _, but may not contain spaces or start with a number.
 ### let myVar = 1; myVar += 5; console.log(myVar); by using this '+=' you can replace myVar = myVar + 5; this command. 
 ### Quotes are not the only characters that can be escaped inside a string. Escape sequences allow you to use characters you may not otherwise be able to use in a string. \'	single quote, \"	double quote, \\	backslash, \n	newline, \t	tab, \r	carriage return, \b	word boundary, \f	form feed
+
+
+# Day26
+
+## Basic freeCodeCamp JS
+### We can also use the += operator to concatenate a string onto the end of an existing string variable. This can be very helpful to break a long string over several lines. Ex. let ourStr = "I come first. "; ourStr += "I come second.";
+### Sometimes you will need to build a string. By using the concatenation operator (+), you can insert one or more variables into a string you're building. Ex. const ourName = "freeCodeCamp"; const ourStr = "Hello, our name is " + ourName + ", how are you?";
+### In JavaScript, String values are immutable, which means that they cannot be altered once created.
+### You can also nest arrays within other arrays, like below: const teams = [["Bulls", 23], ["White Sox", 45]]; This is also called a multi-dimensional array.
+### An easy way to append data to the end of an array is via the push() function.  / .push() takes one or more parameters and "pushes" them onto the end of the array.
+### const arr = [  [1, 2, 3],  [4, 5, 6],  [7, 8, 9],  [[10, 11, 12], 13, 14]]; const subarray = arr[3]; const nestedSubarray = arr[3][0]; const element = arr[3][0][1];
+### .pop() is used to pop a value off of the end of an array. We can store this popped off value by assigning it to a variable. In other words, .pop() removes the last element from an array and returns that element.
+### pop() always removes the last element of an array. What if you want to remove the first? That's where .shift() comes in. It works just like .pop(), except it removes the first element instead of the last.
+### Not only can you shift elements off of the beginning of an array, you can also unshift elements to the beginning of an array i.e. add elements in front of the array.  / .unshift() works exactly like .push(), but instead of adding the element at the end of the array, unshift() adds the element at the beginning of the array.const ourArray = ["Stimpson", "J", "cat"];  ourArray.shift();  ourArray.unshift("Happy");
+
