@@ -97,3 +97,8 @@
 
 ## Basic freeCodeCamp JS
 ### did couple of steps and learnt console.log and confirm, alert and assigning values. how you can assign values to the variables. and how you can use them wisely.
+
+
+# Day28
+
+## Almost Completed the 7th project Edie Homepage from dev-challenges
