@@ -92,3 +92,8 @@
 ### pop() always removes the last element of an array. What if you want to remove the first? That's where .shift() comes in. It works just like .pop(), except it removes the first element instead of the last.
 ### Not only can you shift elements off of the beginning of an array, you can also unshift elements to the beginning of an array i.e. add elements in front of the array.  / .unshift() works exactly like .push(), but instead of adding the element at the end of the array, unshift() adds the element at the beginning of the array.const ourArray = ["Stimpson", "J", "cat"];  ourArray.shift();  ourArray.unshift("Happy");
 
+
+# Day27
+
+## Basic freeCodeCamp JS
+### did couple of steps and learnt console.log and confirm, alert and assigning values. how you can assign values to the variables. and how you can use them wisely.
