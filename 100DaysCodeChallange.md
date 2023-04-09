@@ -112,3 +112,9 @@
 ### .innerHTML by this you can push some values or rewrite values and texts to the page. ex. document.getElementById("").innerHTML = "value/text";
 ### document.getElementsByClassName("")[0].innerHTML = "value/text"; similar to the id but just by using numbers you can select specific values of any class.
 ### Five types of operators : Arithmetic, Logical, Ternary, Assignment and Comparison
+
+
+#
+
+##
+###
