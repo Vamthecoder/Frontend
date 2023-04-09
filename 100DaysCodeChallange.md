@@ -102,3 +102,13 @@
 # Day28
 
 ## Almost Completed the 7th project Edie Homepage from dev-challenges
+
+
+# Day29
+
+## Basic JS 
+### document.getElementById("") you can get value with this command by assigning into some var.
+### document.getElementsByClassName("") similar to Id you can get values through this command by assigning to some var but as classes can be used almost everywhere you use numbers [0] to get the specific class value. 
+### .innerHTML by this you can push some values or rewrite values and texts to the page. ex. document.getElementById("").innerHTML = "value/text";
+### document.getElementsByClassName("")[0].innerHTML = "value/text"; similar to the id but just by using numbers you can select specific values of any class.
+### Five types of operators : Arithmetic, Logical, Ternary, Assignment and Comparison
