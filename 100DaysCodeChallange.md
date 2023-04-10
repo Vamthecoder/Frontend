@@ -114,7 +114,18 @@
 ### Five types of operators : Arithmetic, Logical, Ternary, Assignment and Comparison
 
 
-#
+# Day30
 
-##
-###
+## Basic JS 
+### Logical operator : &&, || and !0 
+### && can only be used when both conditions are true. it will show false or '0' in any case of false.
+### || can be used when one condition is true. either a or b condition should be true for the true output.
+### x > y ? "yes" : "no"; If this only condition is true or false. it will showcase. ex. var x = 20; var y = 18; var z = x > y ? "yes" : "no"; in this case it will show yes.
+### < element onclick="functionName"> attribute can be directly applied in HTML and the event will be assigned to function in JS being made. 
+### var name = document.getElementById('').value; will get the value from the element in HTML. 
+### parseInt() function can be used to convert the string into integer.
+### object-poisition useful when you want to position or align some content aside.
+### flex-flow and flex-basis are useful for responsiveness. you want to use flex-basis insted of width while using flexbox
+### by taking li first child for logo and justify content to flex-end and for logo you can use margin-right to auto. it will make the header look clean. without taking two divs.
+### with the help of flex order, you can play with navigation by giving logo order of 2 and other navigation to order of 1 and 3 to center your logo without separating blocks or childs.
+
