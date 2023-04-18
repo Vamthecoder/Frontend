@@ -129,3 +129,20 @@
 ### by taking li first child for logo and justify content to flex-end and for logo you can use margin-right to auto. it will make the header look clean. without taking two divs.
 ### with the help of flex order, you can play with navigation by giving logo order of 2 and other navigation to order of 1 and 3 to center your logo without separating blocks or childs.
 
+
+# Day31
+
+## Basic JS Frontend Masters
+### document.title to select title from HTML doc. 
+### document.getElementById() you can select ID's from HTML
+### document.querySelector() you can select IDs but with CSS selector #ID.
+### document.getElementsByTagName() you can select any HTML tag by this. 
+### document.getElementsByTagName().length you will get how many selected tags are there.
+### document.querySelectorAll().length By typing All with query selector you can select all tags and class name from HTML.
+### document.getElementsByClassName() you can select all class from HTML.
+### document.getElementById("name").textContent through this we can get inside text from the element's ID from HTML.
+### document.getElementById().textContent = "Value" by using this assigning method you can directly change the value inside the selected element in HTML.
+### document.getElementById("name").append("Value") will add more value to the existed text from HTML. 
+### [perspective,perspective-origin,transform:preserve-3d,transform:rotateX(),transform:rotateY(),transfrom:translateZ()]
+### input:focus~ element{} by using focus pseudo selector you can give access to input as "button" to control "element" by being pressed by the user. without using JS.
+
