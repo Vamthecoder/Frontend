@@ -128,6 +128,7 @@
 ### flex-flow and flex-basis are useful for responsiveness. you want to use flex-basis insted of width while using flexbox
 ### by taking li first child for logo and justify content to flex-end and for logo you can use margin-right to auto. it will make the header look clean. without taking two divs.
 ### with the help of flex order, you can play with navigation by giving logo order of 2 and other navigation to order of 1 and 3 to center your logo without separating blocks or childs.
+### shape-outside will give the ability to shape the text acording to any logo or curve beside it. without using flex but using float around it. 
 
 
 # Day31
@@ -146,3 +147,17 @@
 ### [perspective,perspective-origin,transform:preserve-3d,transform:rotateX(),transform:rotateY(),transfrom:translateZ()]
 ### input:focus~ element{} by using focus pseudo selector you can give access to input as "button" to control "element" by being pressed by the user. without using JS.
 
+
+
+# Day32
+
+## JS First Steps to Professional - FM
+### "string".indexOf("s") will give you the number or index or place where that character of string is in the string.
+### "string".includes("tri") will give you boolean value of true as the tri exist in string. similar if there is no matching of selected string or element boolean will show false.
+### "string".startsWith("st") similar as includes, startsWith is an boolean operation will generate true because st starts with string but 'ing' will generate false.
+### "STRING".toLowerCase() this will give you lower cases of the string or the value if it is in uppercase. similarly .toUpperCase() will capitalize the letters. Ex. document.querySelector("").textContent.toUpperCase()
+### document.querySelector("string").style.textTransform = "uppercase" this is how you can capitalize the letters. and can use css properties by using '.style' and '.property' = "value".
+### pass by reference is not applicable in JS, pass by value is only happens in JS Ex. let x = 12, let y = x, x = 22. so the value of y is 12 not 22. even x has changed the value.
+
+## Responsive Images FM
+### <picture><source src="img.jpg" media="(min-width,max-width,orientation)"> <img src="img.jpg" alt="exceptTheMediaQuery"></picture> this snippet would give you if else condition when media query is true it will load the source image. and if it is false it will directly go to 'img' in the 'picture' element.
