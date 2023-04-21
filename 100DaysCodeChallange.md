@@ -161,3 +161,17 @@
 
 ## Responsive Images FM
 ### <picture><source src="img.jpg" media="(min-width,max-width,orientation)"> <img src="img.jpg" alt="exceptTheMediaQuery"></picture> this snippet would give you if else condition when media query is true it will load the source image. and if it is false it will directly go to 'img' in the 'picture' element.
+
+
+# Day33
+
+## JS First Steps to Professional - FM
+### .sort() in array will automatically sort thing alphabetically. ["b", "d", "a", "c"] = a, b, c, d
+### .join("value") in console.log after variable. would add what ever value is in the join. 
+### .concat(["value", "value"]) you can add one whole array by this in array after variable in console.log/ it wont change original array as push do.
+### as array is mutable so if you reassign it to some another variable and will change the value of first variable it will change automatically another variables too. it is ref value while working with array.
+###  console.log prints it to browser console. similarly console.warn and console.error are two different commands which gives warning and gives error with the message written in it respectively.
+
+## Responsive Images FM
+### srcset= "img100.jpg, img200.jpg, img300.jpg"  sizes="(min-width: 200px) 33.3vw, 100vw" it will give your image more reponsiveness over the all devices and load different MB images on different devices to save bandwidths and make more clearer imgs on different screensize. 
+### responsivebreakpoints.com the website to break any image into different size for responsiveness with exact pixels required.
