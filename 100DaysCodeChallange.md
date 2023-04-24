@@ -175,3 +175,12 @@
 ## Responsive Images FM
 ### srcset= "img100.jpg, img200.jpg, img300.jpg"  sizes="(min-width: 200px) 33.3vw, 100vw" it will give your image more reponsiveness over the all devices and load different MB images on different devices to save bandwidths and make more clearer imgs on different screensize. 
 ### responsivebreakpoints.com the website to break any image into different size for responsiveness with exact pixels required.
+
+
+# Day34
+
+## JS First Steps to Professional - FM
+### .substring(1) will give you all the chars after 0 in strings and arrays from 1 except 0
+### .setAttribute("attribute", "value"); by this you can add attribute in html element without updating any html.
+### removeAttribute("attribute") will remove the attr in html.
+### completed conditional statement 'if else' and its examples.
