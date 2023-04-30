@@ -184,3 +184,13 @@
 ### .setAttribute("attribute", "value"); by this you can add attribute in html element without updating any html.
 ### removeAttribute("attribute") will remove the attr in html.
 ### completed conditional statement 'if else' and its examples.
+
+
+# Day35
+
+## JS First Steps to Professional - FM
+### element.classList.add("classname") lets you add a CSS class. 
+### console.log(`hey my number 1 is adding to your number 4 and it will become their number ${1+4}`) this is an easy method when you can use some funtion to overwrite on '$' with the help of backtick ` `.
+### const usernames = nameValue.filter(user => user.name.includes("n")); it will show the objects or string values of an array  
+### spread - (...variableName) you can use spread by using three dots ... to concatnate or push the values into existing elements
+### Math.floor(Math.random()*3) to get rid of the decimal numbers. it will only give '1' integer.
