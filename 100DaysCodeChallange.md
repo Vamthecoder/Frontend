@@ -194,3 +194,15 @@
 ### const usernames = nameValue.filter(user => user.name.includes("n")); it will show the objects or string values of an array  
 ### spread - (...variableName) you can use spread by using three dots ... to concatnate or push the values into existing elements
 ### Math.floor(Math.random()*3) to get rid of the decimal numbers. it will only give '1' integer.
+
+
+# Day36
+
+## JS First Steps to Professional - FM
+### const variable = [{name: "string1", nickname: "string2"}]; let {name, nickname} = variable[0];  will let you get the value of the array object into their specific variable by assigning value.
+### .split(" "); you can use this method to split a long string into array. if you leave it empty the string will split in array by spaces. Ex. ("string1 string2 string3").split(""); ["string1", 'string2', 'string3']
+### .trim(); you can use to remove the whitespace from both side of the string.
+### let variableResponse = await fetch("URL"); to fetch any website's data from the URL. it will give you reponse. 
+### let variableBody = await variableResponse.json(); will get the data in object or array form from the response. 
+### destructuring let { variablePropertyData } = variableBody; will get the property and its value from the given Object and Array data from the website URL that you have fetched. 
+### async function will allow a normal function to wait for a long period of time to process the function. and it will allow you to use 'await' 
