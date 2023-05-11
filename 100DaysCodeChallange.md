@@ -206,3 +206,13 @@
 ### let variableBody = await variableResponse.json(); will get the data in object or array form from the response. 
 ### destructuring let { variablePropertyData } = variableBody; will get the property and its value from the given Object and Array data from the website URL that you have fetched. 
 ### async function will allow a normal function to wait for a long period of time to process the function. and it will allow you to use 'await' 
+
+
+# Day37
+
+## ES6 from freeCodeCamp 
+### const myFunc = () => "value"; a small function for single or inline statements. you can do small mathmatics and get any value which requires return on the next line. it will alter out the return statement and will give you pure value. 
+### recursion is calling function inside its own function making an infinite loop but by giving a base value in 'if condition' and the function gets called inside the 'else condition' making an infinite loop. it has the ability to stop at certain condition.. Ex. function name(n){ if(n < 2){return []} else { let arr = name(n - 1); arr.push(n); return arr}}
+### const { johnDoe: { age: userAge, email: userEmail }} = user; here is how you can get the value object's property by using nested destructing method.. to assign object's value in to new variable.
+
+
